@@ -1,4 +1,4 @@
-#SQA Manual Testing Basics
+**SQA Manual Testing Basics**
 - **My Personal Learning Notes**
 - **Student:** SADMAN
 - **Date:** 10 th April, 2026
