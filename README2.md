@@ -1,11 +1,10 @@
-
 **SQA Manual Testing Basics**
 
 - **My Personal Learning Notes**  
 - **Student:** SADMAN  
-- **Date:** 11th April 2026  
+- **Date:** 11th April, 2026  
 - **Goal:** Becoming Expert in Software Quality Assurance (SQA) + Performance Testing
-
+---------------------------------------
 
 ## Part-2: Software Testing Life Cycle & Processes
 
@@ -42,21 +41,110 @@ Phases: Requirement → Planning → Design → Development → Testing → Depl
 - Incremental (RAD)
 
 ### 7. Agile Methodology
+
 Flexible, iterative, customer-focused approach.
 
-### 8. Activities of Agile (8 Steps)
-1. Define the project  
-2. Create a backlog  
-3. Plan the sprint  
-4. Execute the sprint  
-5. Review and demo  
-6. Retrospect  
-7. Repeat  
-8. Continuously improve
+**(A). Core Values of Agile (Agile Manifesto)**
+- **Individuals and interactions →** over processes and tools
+- **Working software →** over comprehensive documentation
+- **Customer collaboration →** over contract negotiation
+- **Responding to change →** over following a plan
 
-### 9. TDD, ATDD & BDD
-- **TDD**: Test-Driven Development (write test → code → refactor)  
-- **ATDD**: Acceptance Test-Driven Development  
-- **BDD**: Behavior-Driven Development (Given-When-Then format)
+**(B). 12 Principles of Agile Methodology**
+- 1. Customer Satisfaction
+- 2. Changing Requirement
+- 3. Frequent Delivery
+- 4. Promoting Collaboration
+- 5. Motivated Individuals
+- 6. Face to Face Communication
+- 7. Maintain a Constant pace
+- 8. Measure Progress
+- 9. Technical Excellance
+- 10. Simplicity
+- 11. Self Organized Teams
+- 12. Continuos Improvements
+
+**(C). Popular Agile Frameworks**
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Framework                 | Best For                                   | Key Features                                                       |
+|---------------------------|--------------------------------------------|--------------------------------------------------------------------|
+| Scrum                     | Most common in teams                       | Sprints (2-4 weeks), Daily Standup, Sprint Planning, Retrospective |
+| Kanban                    | Support, maintenance, continuous flow      | Visual board (To Do, In Progress, Done), No fixed sprints          |
+| SAFe                      | Large enterprises                          | Scaled Agile for big organizations                                 |
+| XP (Extreme Programming)  | Early defects, standards, maintainability  |Pair programming, TDD, Continuous Integration                       |
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+**(D). Traditional Testing VS Agile Testing**
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Aspect                    | Traditional Testing (Waterfall)                          | Agile Testing                                      |
+|---------------------------|----------------------------------------------------------|----------------------------------------------------|
+| Approach                  | Sequential (Testing is a separate phase)                 | Iterative & Incremental                            |
+| When Testing Starts       | After development is fully complete                      | From the very beginning (Shift-Left)               |
+| Testing Frequency         | Once, at the end of the project                          | Continuous throughout every sprint                 |
+| Requirement Changes       | Very difficult & expensive                               | Welcomes changes even late                         |
+| Tester Involvement        | Joins late (after coding)                                | Involved from requirements & planning              |
+| Team Structure            | Siloed (Dev vs QA)                                       | Cross-functional (Dev + QA collaborate daily)      |
+| Documentation             | Heavy & formal test plans                                | Lightweight & living documents                     |
+| Feedback                  | Late feedback                                            | Early & continuous feedback                        |
+| Delivery                  | One big release at the end                               | Frequent small releases (every 1-4 weeks)          |
+| Automation Focus          | Mostly manual                                            | Strong emphasis on automation                      |
+| Defect Detection          | Found very late                                          | Found early & cheap to fix                         |
+| Testing Mindset           | "Test after development"                                 | "Quality is everyone's responsibility"             |
+| Risk Level                | High                                                     | Low                                                |
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+**(E). Role of SQA/Tester in Agile**
+- test early and continuously (not only at the end)
+- write acceptance criteria with the Product Owner
+- do exploratory testing + automation
+- attend Daily Standups, Sprint Planning & Retrospectives
+- work very closely with developers (Shift-Left Testing)
+
+**(F). Advantages of Agile Testing**
+  
+   *(i). For the Project*
+    - Faster delivery of working software
+    - Early bug detection → much cheaper to fix
+    - Better adaptability to changing requirements
+    - Higher customer satisfaction
+    
+   *(ii). For the Tester*
+    - More involvement and ownership
+    - influence the product quality from the start
+    - Less repetitive manual regression testing
+    - Closer collaboration with developers
+    
+**(G). Challenges in Agile Testing**
+- Requires strong automation skills
+- Testers must be technically good (API, UI automation, etc.)
+- You need to work at the same pace as developers
+- Less time for detailed documentation
+
+**(H). Real-life Example**
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Traditional                                                  | Agile                                                                     |
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Client gives all requirements →                              | Every 2 weeks you get new features →                                      |
+| Development takes 6 months →                                 | You test them immediately →                                               |
+| Testing starts in month 7 → Many critical bugs found →       | Bugs fixed in the same sprint →                                           |
+| Project delayed by 2–3 months.                               | After 3 months you already have a usable product with customer feedback.  |                    
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+### 8. Activities of Agile (8 Steps)
+ Define the project , Create a backlog , Plan the sprint , Execute the sprint , Review and demo , Retrospect , Repeat , Continuously improve
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Step | Activity                          | Description                                                                 | Key Output                          |
+|------|-----------------------------------|-----------------------------------------------------------------------------|-------------------------------------|
+| 1    | Understand the Problem / Vision   | Define overall product goal and business needs                              | Product Vision & Initial Backlog    |
+| 2    | Create Product Roadmap            | Break vision into major features and prioritize                             | High-level Roadmap                  |
+| 3    | Develop/Build the Team            | Form cross-functional team with all required skills                         | Ready self-organizing team          |
+| 4    | Sprint Planning                   | Select backlog items and define what to deliver in the sprint               | Sprint Backlog + Sprint Goal        |
+| 5    | Daily Scrum                       | 15-min daily sync meeting to discuss progress and blockers                  | Team alignment                      |
+| 6    | Sprint Execution                  | Team builds, codes, integrates and tests the features                       | Working tested product increment    |
+| 7    | Sprint Review                     | Demo completed work and collect stakeholder feedback                        | Feedback + Updated Backlog          |
+| 8    | Sprint Retrospective              | Team reflects on what went well and how to improve next sprint              | Actionable improvements             |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Flow:** Step 1-3 (once) → Repeat Step 4-8 every sprint
+
 
 ---
