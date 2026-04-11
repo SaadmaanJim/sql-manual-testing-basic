@@ -1,10 +1,10 @@
 
 SQA Manual Testing Basics
 
-**My Personal Learning Notes**  
-**Student:** SADMAN  
-**Date:** 11th April 2026  
-**Goal:** Becoming Expert in Software Quality Assurance (SQA) + Performance Testing
+-**My Personal Learning Notes**  
+-**Student:** SADMAN  
+-**Date:** 11th April 2026  
+-**Goal:** Becoming Expert in Software Quality Assurance (SQA) + Performance Testing
 
 
 ## Part-2: Software Testing Life Cycle & Processes
