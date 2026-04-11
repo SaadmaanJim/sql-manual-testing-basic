@@ -123,7 +123,7 @@ Flexible, iterative, customer-focused approach.
 **(H). Real-life Example**
 --------------------------------------------------------------------------------------------------------------------------------------------
 | Traditional                                                  | Agile                                                                     |
---------------------------------------------------------------------------------------------------------------------------------------------
+|------------------------------------------------------------------------------------------------------------------------------------------|
 | Client gives all requirements →                              | Every 2 weeks you get new features →                                      |
 | Development takes 6 months →                                 | You test them immediately →                                               |
 | Testing starts in month 7 → Many critical bugs found →       | Bugs fixed in the same sprint →                                           |
