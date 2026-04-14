@@ -5,7 +5,7 @@
 - **Goal:** Becoming Expert in Software Quality Assurance (SQA) + Performance Testing
 ---------------------------------
 
-## Part-1: Software Testing Fundamentals
+# Part-1: Software Testing Fundamentals
 
 ### 1. What is Testing?
 Software testing is a set of activities to discover defects and evaluate the quality of software.  
