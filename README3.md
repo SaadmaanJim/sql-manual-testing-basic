@@ -2,7 +2,7 @@
 
 - **My Personal Learning Notes**  
 - **Student:** SADMAN  
-- **Date:** April 12th , 2026  
+- **Date:** April 12th/13th/14th , 2026  
 - **Goal:** Becoming Expert in Software Quality Assurance (SQA) + Performance Testing
 
 -----------------
@@ -314,12 +314,94 @@ The more independent the tester is, the more objective and effective the testing
 
 **Best Practice**: In most professional Agile teams, we aim for **High Independence**. For critical features, we go for **Very High Independence**.
 
+## 6. Test Levels (example with food-delivery APP)
+
+### (a). Component / Unit Testing
+
+- **Defination:** Testing individual small units or components of the code in isolation.
+- **Objectives:** Check individual functions work correctly
+- **Who Does It?** Developers
+- **Real-world Example:** Testing the "Calculate Delivery Fee" function to check if VAT and delivery charge are calculated correctly.
+
+### (b). Integration Testing (Component Integration + System Integration)
+
+- **Defination:** Testing the interaction and data flow between different modules/components when combined. (Includes Component Integration and System                              Integration)
+- **Objectives:** Check if different modules work together
+- **Who Does It?** Developers + Testers
+- **Real-world Example:** Checking if Login module works correctly with Cart module and Payment module when placing an order.
+
+### (c). System Testing
+
+- **Defination:** Testing the complete integrated software system as a whole against the requirements.
+- **Objectives:** Check the complete app as a whole
+- **Who Does It?** Dedicated Testers
+- **Real-world Example:** Testing the full end-to-end flow: Browse restaurants → Select food → Add to cart → Payment → Order tracking.
+
+### (d). Acceptance Testing
+
+- **Defination:** Testing to verify whether the system meets the business and user requirements and is ready for release.
+- **Objectives:** Check if the app meets business/user needs
+- **Who Does It?** Client / End Users / Stakeholders
+- **Real-world Example:** Restaurant owners and real customers test the app to confirm it is usable and meets their expectations before final launch.
+
+## 7. Test Pyramid
+- **Bottom →** Many small, fast tests (Unit tests)
+ *Real-life Example* ->
+  - Test if delivery charge is calculated correctly (including VAT)
+  - Test if promo code discount is applied properly
+  - Test if minimum order value validation works
+→ You may write hundreds of these tests.
+
+- **Middle →** Service / Integration tests
+ *Real-life Example*
+  - Test if Login API returns correct user data
+  - Test if Cart API + Payment API work together
+  - Test if Order API updates restaurant inventory correctly
+     → You may write 50–100 of these tests.
+
+- **Top →** Few slow, broad tests (UI / End-to-End tests)
+  *Real-life Example*
+  - Test the complete user journey:
+  - Open app →
+  - Login →
+  - Browse restaurants →
+  - Add food →
+  - Checkout →
+  - Make payment →
+  - See order status
+→ You should write only 10–20 of these tests.
+
+## 8. Test Quadrants
+
+### Q1: Technology Facing + Support the Team (Unit, Component, CI)
+ 
+  - **Type:** Technology Facing + Support the Team
+  - **Purpose:**
+  - **Who usually does it:**
+  - **Real-life Example:** 
+
+### Q2: Business Facing + Support the Team (Functional, User Story, API)
+ 
+  - **Type:**
+  - **Purpose:**
+  - **Who usually does it:**
+  - **Real-life Example:** 
+
+### Q3: Business Facing + Critique the Product (Exploratory, Usability, UAT)
+  
+  - **Type:**
+  - **Purpose:**
+  - **Who usually does it:**
+  - **Real-life Example:** 
 
 
 
-
-
-
+### Q4: Technology Facing + Critique the Product (Performance, Security, Load, Regression)
+  
+  - **Type:**
+  - **Purpose:**
+  - **Who usually does it:**
+  - **Real-life Example:** 
 
 
 
