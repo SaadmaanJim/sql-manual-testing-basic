@@ -6,7 +6,7 @@
 - **Goal:** Becoming Expert in Software Quality Assurance (SQA) + Performance Testing
 ---------------------------------------
 
-## Part-2: Software Testing Life Cycle & Processes
+# Part-2: Software Testing Life Cycle & Processes
 
 ### 1. Software Testing Life Cycle (STLC)
 Systematic process with multiple phases performed repeatedly until the product is ready.
